@@ -9,9 +9,9 @@
   }
   @media screen and (max-width: 800px) {
       .card-list {
-        width:400px;
+        width:auto;
         display:grid;
-        margin: auto;
+        margin: 30px;
         padding: 20px;
         grid-template-columns: 1fr;
         }
