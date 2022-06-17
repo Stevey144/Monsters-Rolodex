@@ -8,13 +8,12 @@
 
   }
   @media screen and (max-width: 800px) {
-
       .card-list {
-        width:500px;
+        width:400px;
         display:grid;
         margin: auto;
         padding: 20px;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         }
 
    }
