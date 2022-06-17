@@ -1,11 +1,10 @@
 import { Component } from "react";
 import './card.styles.css';
-class Card extends Component{
-    render(){
-const {id, name, email} =  this.props.monster  
-// line five is what we call destructing of array
+const Card = ({monster}) =>{
+const {id, name, email} =  monster  
+// line five is what we call destructuring of array
 //if u pass an incorrect prop, your app wont work!! eg 
-//this.props.monsters(is wrong because we are expect a monster with letter s)
+//this.props.monsters(is wrong because we expect a monster with letter s)
 //pay attention while passing props
     return (
                 <div className='card-container' key={id}>
@@ -16,5 +15,4 @@ const {id, name, email} =  this.props.monster
             )
     }
     
-}
 export default Card

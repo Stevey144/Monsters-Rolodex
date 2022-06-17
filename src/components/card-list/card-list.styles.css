@@ -4,6 +4,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
+
+
   }
+  @media screen and (max-width: 800px) {
+
+      .card-list {
+        width:500px;
+        display:grid;
+        margin: auto;
+        padding: 20px;
+        grid-template-columns: 1fr 1fr;
+        }
+
+   }
+
 
   
